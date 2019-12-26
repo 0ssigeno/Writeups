@@ -1,4 +1,4 @@
-#Genetic Mutation
+# Genetic Mutation
 
 We have to change 4 bytes and we can give our name as input, so we can put something on the stack of the length that we want.
 Of course we want to put a shellcode on the stack, and use the 4 bytes to jump on it.
