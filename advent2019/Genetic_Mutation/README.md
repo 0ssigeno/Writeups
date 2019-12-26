@@ -10,5 +10,5 @@ To be honest I didn't know how to do it, well, I knew how to change it, but I di
 After that i just used 2 bytes to jump on the shellcode: the string is loaded naturally into RDX, at main+113.
 So is enought to select an address after that point, but the string still has to be in that register, use 1 byte to modify one opcode to 'push rdx' and another byte to create the 'ret' opcode, so we can jump on our shellcode and have a shell!
 
-![](./bytes.jpg)
+![](./bytes.png)
 
