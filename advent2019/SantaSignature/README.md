@@ -15,7 +15,7 @@ verify(encrypt("AAAA",publicKey),"AAAA") # encrypt("AAAA",publickey)==encrypt("A
 ```
 we will pass the test.
 We just have to do this for 3 times!
-![](./santa.jpg)
+![](./santa.png)
 
 
 After reading the explanation by the OverTheWire team, I don't think this was intended, but hey, a flag is a flag.
