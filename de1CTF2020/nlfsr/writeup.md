@@ -15,10 +15,14 @@ First of all, I solved this challenge with [meowmeowxw](https://meowmeowxw.gitla
 
 To understand how a general nlsr works, please read this [article](https://ctf-wiki.github.io/ctf-wiki/crypto/streamcipher/fsr/nfsr/) from ctfwiki.
 What did we learn from that article? That we must find a strong correlation between the output and one of the input.
-So we made a little script to retrieve the truth table of ```py (ao * bo) ^ (bo * co) ^ (bo * do) ^ co ^ do```.
-
+So we made a little script to retrieve the truth table of 
+```py 
+(ao * bo) ^ (bo * co) ^ (bo * do) ^ co ^ do
+```
 
 The table retrieved is the following:
+
+
 ![alt text](table.jpg "Truth Table")
 
 
