@@ -11,7 +11,7 @@ Easy lfsr easy crypto
 
 
 ## Writeup
-First of all, I solved this challenge with [meowmeowxw](https://meowmeowxw.gitlab.io/)
+First of all, I solved this challenge together with [meowmeowxw](https://meowmeowxw.gitlab.io/)
 
 To understand how a general nlsr works, please read this [article](https://ctf-wiki.github.io/ctf-wiki/crypto/streamcipher/fsr/nfsr/) from ctfwiki.
 What did we learn from that article? That we must find a strong correlation between the output and one of the input.
